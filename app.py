@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World! small change here for test</p>"
+    return "<p>Hello, World! small change here for testii</p>"
 def get_data():
     data = {'message':'FLASKIN VIESTI!'}
     return jsonify(data)
